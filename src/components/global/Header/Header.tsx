@@ -8,6 +8,7 @@ import { Menu, X } from "lucide-react";
 import { DesktopNav } from "./DesktopNav";
 import { MobileNav } from "./MobileNav";
 import { DesktopNavV2 } from "./DesktopNavV2";
+import Link from "next/link";
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -20,7 +21,9 @@ const Header = () => {
         <div className="flex items-center justify-center h-full">
           <Container className="h-full">
             <div className="flex w-full items-center justify-between gap-2 md:gap-12 rounded-full border-2 px-2 md:px-6 py-2.5 h-full backdrop-blur-xl">
-              <h3>Logo</h3>
+              <Link href="/">
+                <h3>Logo</h3>
+              </Link>
 
               <div className="hidden md:flex">
                 <DesktopNavV2 />
