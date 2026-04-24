@@ -2,10 +2,8 @@
 
 import React from "react";
 import { Container } from "../Container";
-import { Button } from "@/components/ui/button";
 import { Toggle } from "@/components/ui/toggle";
 import { Menu, X } from "lucide-react";
-import { DesktopNav } from "./DesktopNav";
 import { MobileNav } from "./MobileNav";
 import { DesktopNavV2 } from "./DesktopNavV2";
 import Link from "next/link";

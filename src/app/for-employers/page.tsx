@@ -1,9 +1,5 @@
-import React from "react";
-
-type Props = {};
-
-const page = (props: Props) => {
+const ForEmployers = () => {
   return <div>FOR EMPLOYERS</div>;
 };
 
-export default page;
+export default ForEmployers;
